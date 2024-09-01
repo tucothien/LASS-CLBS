@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Three Column Layout with Bootstrap</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="data/data_input.js"></script>
+</head>
+
+<body>
+    <div class="container mt-5" id="container">
+
+        <script>
+
+            maxNumOfMethodsOnOneLine = 3;
+
+            numOfRows = dataObject.data.length;
+            numOfMethods = dataObject.method_names.length;
+
+            for (let i = 0; i < numOfRows; i++) {
+                row = `
+                    <div class="row">
+                        
+                        <div class="col-md-3" style="padding-right: 35px; padding-left: 31px;">
+                            <div class="row">
+                                <p class="text-center"><strong>Caption</strong></p>
+                            </div>
+                            <div class="row mb-4">
+                                <p>${dataObject.data[i].caption}</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-9">
+                            <div class="row">
+                `;
+
+                for (let j = 0; j < numOfMethods; j++) {
+                    cell = `
+                        <div class="col-md-${12 / (maxNumOfMethodsOnOneLine)}">
+                            <div>
+                                <p class="text-center"><strong>${dataObject.method_names[j]}</strong></p>
+                            </div>
+                            <div class="card mb-4">
+                                <img src="${dataObject.data[i].methods[j].image}" class="card-img-top" alt="Image j" />
+                            </div>
+                            <div class="card mb-4">
+                                <audio controls src="${dataObject.data[i].methods[j].audio}" class="card-img-top"></audio>
+                            </div>
+                        </div>
+                    `;
+                    row = row + cell;
+                }
+                
+                row = row + `</div></div></div>`;
+                row = row + `<hr style="margin-bottom: 40px;">`;
+
+                $('#container').append(row)
+            } 
+
+        </script>
+        
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
