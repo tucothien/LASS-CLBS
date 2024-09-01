@@ -1,7 +1,7 @@
 dataObject = {
     "method_names": [
         "Mixture",
-        "Selected",
+        "Extracted sources",
     ],
     "data": [
 		{
