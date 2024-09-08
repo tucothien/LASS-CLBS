@@ -21,7 +21,7 @@ dataObject = {
 					"method_name": "estimated",
 					"image": "data/real_examples/images/test-real-case-17_1.png",
 					"audio": "data/real_examples/audios/test-real-case-17_1.wav",
-					"caption": "A camera is shooting.",
+					"caption": "A camera is shooting."
 				}
 			]
 		},
@@ -63,13 +63,19 @@ dataObject = {
 					"method_name": "estimated",
 					"image": "data/real_examples/images/test-real-case-86_0.png",
 					"audio": "data/real_examples/audios/test-real-case-86_0.wav",
-					"caption": "the wind is blowing hard on the roadside."
+					"caption": "The wind is blowing hard on the roadside."
 				},
 				{
 					"method_name": "estimated",
 					"image": "data/real_examples/images/test-real-case-86_1.png",
 					"audio": "data/real_examples/audios/test-real-case-86_1.wav",
 					"caption": "Water is droping."
+				},
+				{
+					"method_name": "estimated",
+					"image": "data/real_examples/images/test-real-case-86_2.png",
+					"audio": "data/real_examples/audios/test-real-case-86_2.wav",
+					"caption": "The dripping water trickles."
 				}
 			]
 		},
@@ -84,7 +90,19 @@ dataObject = {
 					"method_name": "estimated",
 					"image": "data/real_examples/images/test-real-case-170_0.png",
 					"audio": "data/real_examples/audios/test-real-case-170_0.wav",
-					"caption": "the bell is ringing with faint echoes."
+					"caption": "The bell is ringing with faint echoes."
+				},
+				{
+					"method_name": "estimated",
+					"image": "data/real_examples/images/test-real-case-170_1.png",
+					"audio": "data/real_examples/audios/test-real-case-170_1.wav",
+					"caption": "A bell is rung a couple of times."
+				},
+				{
+					"method_name": "estimated",
+					"image": "data/real_examples/images/test-real-case-170_2.png",
+					"audio": "data/real_examples/audios/test-real-case-170_2.wav",
+					"caption": "A loud and pleasant bell chimes several times."
 				}
 			]
 		},
@@ -99,12 +117,18 @@ dataObject = {
 					"method_name": "estimated",
 					"image": "data/real_examples/images/test-real-case-185_0.png",
 					"audio": "data/real_examples/audios/test-real-case-185_0.wav",
-					"caption": "the train is moving along the tracks, producing a low rumble."
+					"caption": "The train is moving along the tracks, producing a low rumble."
 				},
 				{
 					"method_name": "estimated",
 					"image": "data/real_examples/images/test-real-case-185_1.png",
 					"audio": "data/real_examples/audios/test-real-case-185_1.wav",
+					"caption": "A train is rolling down the train tracks."
+				},
+				{
+					"method_name": "estimated",
+					"image": "data/real_examples/images/test-real-case-185_2.png",
+					"audio": "data/real_examples/audios/test-real-case-185_2.wav",
 					"caption": "Horns are honking."
 				}
 			]
