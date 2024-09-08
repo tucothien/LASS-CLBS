@@ -20,14 +20,15 @@
             for (let k = 0; k < numOfPapers; k++) {
                 var title = `
                     <div class="mb-4">
-                        <h1 class="text-center title">${dataObject[k].title}</h1>
+                        <h1 class="text-center title">${dataObject[k].hasOwnProperty('title') ? dataObject[k].title : '' }</h1>
+
                     </div>
                 `;
                 $('#container').append(title);
 
                 var text = `
                     <div class="mb-4">
-                        <p class="text-justify">${dataObject[k].text}</p>
+                        <p class="text-justify">${dataObject[k].hasOwnProperty('text') ? dataObject[k].text : '' }</p>
                     </div>
                 `;
                 $('#container').append(text);
