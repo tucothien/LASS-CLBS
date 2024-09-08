@@ -9,13 +9,13 @@ dataObject = {
 			"methods": [
 				{
 					"method_name": "mixture",
-					"image": "data/images/test-real-case-17.png",
-					"audio": "data/audios/test-real-case-17.wav"
+					"image": "data/real_examples/images/test-real-case-17.png",
+					"audio": "data/real_examples/audios/test-real-case-17.wav"
 				},
 				{
 					"method_name": "estimated",
-					"image": "data/images/test-real-case-17_0.png",
-					"audio": "data/audios/test-real-case-17_0.wav"
+					"image": "data/real_examples/images/test-real-case-17_0.png",
+					"audio": "data/real_examples/audios/test-real-case-17_0.wav"
 				}
 			]
 		},
@@ -24,13 +24,13 @@ dataObject = {
 			"methods": [
 				{
 					"method_name": "mixture",
-					"image": "data/images/test-real-case-17.png",
-					"audio": "data/audios/test-real-case-17.wav"
+					"image": "data/real_examples/images/test-real-case-17.png",
+					"audio": "data/real_examples/audios/test-real-case-17.wav"
 				},
 				{
 					"method_name": "estimated",
-					"image": "data/images/test-real-case-17_1.png",
-					"audio": "data/audios/test-real-case-17_1.wav"
+					"image": "data/real_examples/images/test-real-case-17_1.png",
+					"audio": "data/real_examples/audios/test-real-case-17_1.wav"
 				}
 			]
 		},
@@ -39,13 +39,13 @@ dataObject = {
 			"methods": [
 				{
 					"method_name": "mixture",
-					"image": "data/images/test-real-case-26.png",
-					"audio": "data/audios/test-real-case-26.wav"
+					"image": "data/real_examples/images/test-real-case-26.png",
+					"audio": "data/real_examples/audios/test-real-case-26.wav"
 				},
 				{
 					"method_name": "estimated",
-					"image": "data/images/test-real-case-26_0.png",
-					"audio": "data/audios/test-real-case-26_0.wav"
+					"image": "data/real_examples/images/test-real-case-26_0.png",
+					"audio": "data/real_examples/audios/test-real-case-26_0.wav"
 				}
 			]
 		},
@@ -54,13 +54,13 @@ dataObject = {
 			"methods": [
 				{
 					"method_name": "mixture",
-					"image": "data/images/test-real-case-26.png",
-					"audio": "data/audios/test-real-case-26.wav"
+					"image": "data/real_examples/images/test-real-case-26.png",
+					"audio": "data/real_examples/audios/test-real-case-26.wav"
 				},
 				{
 					"method_name": "estimated",
-					"image": "data/images/test-real-case-26_1.png",
-					"audio": "data/audios/test-real-case-26_1.wav"
+					"image": "data/real_examples/images/test-real-case-26_1.png",
+					"audio": "data/real_examples/audios/test-real-case-26_1.wav"
 				}
 			]
 		},
@@ -69,13 +69,13 @@ dataObject = {
 			"methods": [
 				{
 					"method_name": "mixture",
-					"image": "data/images/test-real-case-26.png",
-					"audio": "data/audios/test-real-case-26.wav"
+					"image": "data/real_examples/images/test-real-case-26.png",
+					"audio": "data/real_examples/audios/test-real-case-26.wav"
 				},
 				{
 					"method_name": "estimated",
-					"image": "data/images/test-real-case-26_2.png",
-					"audio": "data/audios/test-real-case-26_2.wav"
+					"image": "data/real_examples/images/test-real-case-26_2.png",
+					"audio": "data/real_examples/audios/test-real-case-26_2.wav"
 				}
 			]
 		},
@@ -84,13 +84,13 @@ dataObject = {
 			"methods": [
 				{
 					"method_name": "mixture",
-					"image": "data/images/test-real-case-86.png",
-					"audio": "data/audios/test-real-case-86.wav"
+					"image": "data/real_examples/images/test-real-case-86.png",
+					"audio": "data/real_examples/audios/test-real-case-86.wav"
 				},
 				{
 					"method_name": "estimated",
-					"image": "data/images/test-real-case-86_0.png",
-					"audio": "data/audios/test-real-case-86_0.wav"
+					"image": "data/real_examples/images/test-real-case-86_0.png",
+					"audio": "data/real_examples/audios/test-real-case-86_0.wav"
 				}
 			]
 		},
@@ -99,13 +99,13 @@ dataObject = {
 			"methods": [
 				{
 					"method_name": "mixture",
-					"image": "data/images/test-real-case-86.png",
-					"audio": "data/audios/test-real-case-86.wav"
+					"image": "data/real_examples/images/test-real-case-86.png",
+					"audio": "data/real_examples/audios/test-real-case-86.wav"
 				},
 				{
 					"method_name": "estimated",
-					"image": "data/images/test-real-case-86_1.png",
-					"audio": "data/audios/test-real-case-86_1.wav"
+					"image": "data/real_examples/images/test-real-case-86_1.png",
+					"audio": "data/real_examples/audios/test-real-case-86_1.wav"
 				}
 			]
 		},
@@ -114,13 +114,13 @@ dataObject = {
 			"methods": [
 				{
 					"method_name": "mixture",
-					"image": "data/images/test-real-case-170.png",
-					"audio": "data/audios/test-real-case-170.wav"
+					"image": "data/real_examples/images/test-real-case-170.png",
+					"audio": "data/real_examples/audios/test-real-case-170.wav"
 				},
 				{
 					"method_name": "estimated",
-					"image": "data/images/test-real-case-170_0.png",
-					"audio": "data/audios/test-real-case-170_0.wav"
+					"image": "data/real_examples/images/test-real-case-170_0.png",
+					"audio": "data/real_examples/audios/test-real-case-170_0.wav"
 				}
 			]
 		},
@@ -129,13 +129,13 @@ dataObject = {
 			"methods": [
 				{
 					"method_name": "mixture",
-					"image": "data/images/test-real-case-185.png",
-					"audio": "data/audios/test-real-case-185.wav"
+					"image": "data/real_examples/images/test-real-case-185.png",
+					"audio": "data/real_examples/audios/test-real-case-185.wav"
 				},
 				{
 					"method_name": "estimated",
-					"image": "data/images/test-real-case-185_0.png",
-					"audio": "data/audios/test-real-case-185_0.wav"
+					"image": "data/real_examples/images/test-real-case-185_0.png",
+					"audio": "data/real_examples/audios/test-real-case-185_0.wav"
 				}
 			]
 		},
@@ -144,13 +144,13 @@ dataObject = {
 			"methods": [
 				{
 					"method_name": "mixture",
-					"image": "data/images/test-real-case-185.png",
-					"audio": "data/audios/test-real-case-185.wav"
+					"image": "data/real_examples/images/test-real-case-185.png",
+					"audio": "data/real_examples/audios/test-real-case-185.wav"
 				},
 				{
 					"method_name": "estimated",
-					"image": "data/images/test-real-case-185_1.png",
-					"audio": "data/audios/test-real-case-185_1.wav"
+					"image": "data/real_examples/images/test-real-case-185_1.png",
+					"audio": "data/real_examples/audios/test-real-case-185_1.wav"
 				}
 			]
 		}
