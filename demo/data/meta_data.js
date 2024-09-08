@@ -5,95 +5,154 @@ dataObject = {
     ],
     "data": [
 		{
-            "caption": "the wind chimes are making a crisp and sweet sound.",
-            "methods": [
-                {
-                    "image": "data/images/test-real-case-2.png",
-                    "audio": "data/audios/test-real-case-2.wav"
-                },
-                {
-                    "image": "data/images/test-real-case-2_proposed.png",
-                    "audio": "data/audios/test-real-case-2_proposed.wav"
-                }
-            ]
-        },
-        {
-            "caption": "the crowd is cheering and giving applause.",
-            "methods": [
-                {
-                    "image": "data/images/test-real-case-16.png",
-                    "audio": "data/audios/test-real-case-16.wav"
-                },
-                {
-                    "image": "data/images/test-real-case-16_proposed.png",
-                    "audio": "data/audios/test-real-case-16_proposed.wav"
-                }
-            ]
-        },
-        {
-            "caption": "people are clapping their hands intermittently.",
-            "methods": [
-                {
-                    "image": "data/images/test-real-case-25.png",
-                    "audio": "data/audios/test-real-case-25.wav"
-                },
-                {
-                    "image": "data/images/test-real-case-25_proposed.png",
-                    "audio": "data/audios/test-real-case-25_proposed.wav"
-                }
-            ]
-        },
-        {
-            "caption": "a lot of insects are chirping and a dog is barking.",
-            "methods": [
-                {
-                    "image": "data/images/test-real-case-27.png",
-                    "audio": "data/audios/test-real-case-27.wav"
-                },
-                {
-                    "image": "data/images/test-real-case-27_proposed.png",
-                    "audio": "data/audios/test-real-case-27_proposed.wav"
-                }
-            ]
-        },
-        {
-            "caption": "someone is loading a gun.",
-            "methods": [
-                {
-                    "image": "data/images/test-real-case-40.png",
-                    "audio": "data/audios/test-real-case-40.wav"
-                },
-                {
-                    "image": "data/images/test-real-case-40_proposed.png",
-                    "audio": "data/audios/test-real-case-40_proposed.wav"
-                }
-            ]
-        },
-        {
-            "caption": "the engine begins to work, emitting a buzzing sound.",
-            "methods": [
-                {
-                    "image": "data/images/test-real-case-56.png",
-                    "audio": "data/audios/test-real-case-56.wav"
-                },
-                {
-                    "image": "data/images/test-real-case-56_proposed.png",
-                    "audio": "data/audios/test-real-case-56_proposed.wav"
-                }
-            ]
-        },
-        {
-            "caption": "a group of birds are chirping in the distance.",
-            "methods": [
-                {
-                    "image": "data/images/test-real-case-57.png",
-                    "audio": "data/audios/test-real-case-57.wav"
-                },
-                {
-                    "image": "data/images/test-real-case-57_proposed.png",
-                    "audio": "data/audios/test-real-case-57_proposed.wav"
-                }
-            ]
-        }
+			"caption": "The crowd is cheering, yelling, whistling, and applauding enthusiastically.",
+			"methods": [
+				{
+					"method_name": "mixture",
+					"image": "data/images/test-real-case-17.png",
+					"audio": "data/audios/test-real-case-17.wav"
+				},
+				{
+					"method_name": "estimated",
+					"image": "data/images/test-real-case-17_0.png",
+					"audio": "data/audios/test-real-case-17_0.wav"
+				}
+			]
+		},
+		{
+			"caption": "A camera is shooting.",
+			"methods": [
+				{
+					"method_name": "mixture",
+					"image": "data/images/test-real-case-17.png",
+					"audio": "data/audios/test-real-case-17.wav"
+				},
+				{
+					"method_name": "estimated",
+					"image": "data/images/test-real-case-17_1.png",
+					"audio": "data/audios/test-real-case-17_1.wav"
+				}
+			]
+		},
+		{
+			"caption": "Clear footsteps keep coming from afar.",
+			"methods": [
+				{
+					"method_name": "mixture",
+					"image": "data/images/test-real-case-26.png",
+					"audio": "data/audios/test-real-case-26.wav"
+				},
+				{
+					"method_name": "estimated",
+					"image": "data/images/test-real-case-26_0.png",
+					"audio": "data/audios/test-real-case-26_0.wav"
+				}
+			]
+		},
+		{
+			"caption": "A lot of insects are chirping.",
+			"methods": [
+				{
+					"method_name": "mixture",
+					"image": "data/images/test-real-case-26.png",
+					"audio": "data/audios/test-real-case-26.wav"
+				},
+				{
+					"method_name": "estimated",
+					"image": "data/images/test-real-case-26_1.png",
+					"audio": "data/audios/test-real-case-26_1.wav"
+				}
+			]
+		},
+		{
+			"caption": "A dog is barking.",
+			"methods": [
+				{
+					"method_name": "mixture",
+					"image": "data/images/test-real-case-26.png",
+					"audio": "data/audios/test-real-case-26.wav"
+				},
+				{
+					"method_name": "estimated",
+					"image": "data/images/test-real-case-26_2.png",
+					"audio": "data/audios/test-real-case-26_2.wav"
+				}
+			]
+		},
+		{
+			"caption": "the wind is blowing hard on the roadside.",
+			"methods": [
+				{
+					"method_name": "mixture",
+					"image": "data/images/test-real-case-86.png",
+					"audio": "data/audios/test-real-case-86.wav"
+				},
+				{
+					"method_name": "estimated",
+					"image": "data/images/test-real-case-86_0.png",
+					"audio": "data/audios/test-real-case-86_0.wav"
+				}
+			]
+		},
+		{
+			"caption": "Water is droping.",
+			"methods": [
+				{
+					"method_name": "mixture",
+					"image": "data/images/test-real-case-86.png",
+					"audio": "data/audios/test-real-case-86.wav"
+				},
+				{
+					"method_name": "estimated",
+					"image": "data/images/test-real-case-86_1.png",
+					"audio": "data/audios/test-real-case-86_1.wav"
+				}
+			]
+		},
+		{
+			"caption": "the bell is ringing with faint echoes.",
+			"methods": [
+				{
+					"method_name": "mixture",
+					"image": "data/images/test-real-case-170.png",
+					"audio": "data/audios/test-real-case-170.wav"
+				},
+				{
+					"method_name": "estimated",
+					"image": "data/images/test-real-case-170_0.png",
+					"audio": "data/audios/test-real-case-170_0.wav"
+				}
+			]
+		},
+		{
+			"caption": "the train is moving along the tracks, producing a low rumble.",
+			"methods": [
+				{
+					"method_name": "mixture",
+					"image": "data/images/test-real-case-185.png",
+					"audio": "data/audios/test-real-case-185.wav"
+				},
+				{
+					"method_name": "estimated",
+					"image": "data/images/test-real-case-185_0.png",
+					"audio": "data/audios/test-real-case-185_0.wav"
+				}
+			]
+		},
+		{
+			"caption": "Horns are honking.",
+			"methods": [
+				{
+					"method_name": "mixture",
+					"image": "data/images/test-real-case-185.png",
+					"audio": "data/audios/test-real-case-185.wav"
+				},
+				{
+					"method_name": "estimated",
+					"image": "data/images/test-real-case-185_1.png",
+					"audio": "data/audios/test-real-case-185_1.wav"
+				}
+			]
+		}
 	]
 };
