@@ -15,37 +15,55 @@
     <div class="container mt-5" id="container">
 
         <script>
-            var numOfRows = dataObject.data.length;
+            var numOfPapers = dataObject.length;
 
-            for (let i = 0; i < numOfRows; i++) {
-                row = `<div class="row">`;
+            for (let k = 0; k < numOfPapers; k++) {
+                var title = `
+                    <div class="mb-4">
+                        <h1 class="text-center title">${dataObject[k].title}</h1>
+                    </div>
+                `;
+                $('#container').append(title);
 
-                numOfMethods = dataObject.data[i].methods.length;
+                var text = `
+                    <div class="mb-4">
+                        <p class="text-justify">${dataObject[k].text}</p>
+                    </div>
+                `;
+                $('#container').append(text);
 
-                for (let j = 0; j < numOfMethods; j++) {
-                    cell = `
-                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 px-2">
-                            <div>
-                                <p class="text-center method-name"><strong>${dataObject.data[i].methods[j].method_name}</strong></p>
+                var numOfRows = dataObject[k].data.length;
+
+                for (let i = 0; i < numOfRows; i++) {
+                    row = `<div class="row">`;
+
+                    numOfMethods = dataObject[k].data[i].methods.length;
+
+                    for (let j = 0; j < numOfMethods; j++) {
+                        cell = `
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 px-2">
+                                <div>
+                                    <p class="text-center method-name"><strong>${dataObject[k].data[i].methods[j].method_name}</strong></p>
+                                </div>
+                                <div class="mb-1">
+                                    <img src="${dataObject[k].data[i].methods[j].image}" class="card-img-top" alt="Image j" />
+                                </div>
+                                <div class="mb-1">
+                                    <audio controls src="${dataObject[k].data[i].methods[j].audio}" class="card-img-top"></audio>
+                                </div>
+                                <div class="mb-1">
+                                    <p class="text-left method-name">${dataObject[k].data[i].methods[j].hasOwnProperty('caption') ? dataObject[k].data[i].methods[j].caption : '' }</p>
+                                </div>
                             </div>
-                            <div class="mb-1">
-                                <img src="${dataObject.data[i].methods[j].image}" class="card-img-top" alt="Image j" />
-                            </div>
-                            <div class="mb-3">
-                                <audio controls src="${dataObject.data[i].methods[j].audio}" class="card-img-top"></audio>
-                            </div>
-                            <div class="mb-1">
-                                <p class="text-left method-name">${dataObject.data[i].methods[j].caption !== undefined ? dataObject.data[i].methods[j].caption : "" }</p>
-                            </div>
-                        </div>
-                    `;
-                    row = row + cell;
+                        `;
+                        row = row + cell;
+                    }
+                    
+                    row = row + `</div>`;
+                    row = row + `<hr style="margin-bottom: 20px;">`;
+
+                    $('#container').append(row)
                 }
-                
-                row = row + `</div>`;
-                row = row + `<hr style="margin-bottom: 25px;">`;
-
-                $('#container').append(row)
             }
 
         </script>
