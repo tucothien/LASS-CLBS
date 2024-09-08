@@ -1,6 +1,6 @@
 dataObject = [
 	{
-		"title": "LASS example with real audio sample",
+		"title": "LASS Example with Real-World Audio Samples",
 		"data": [
 			{
 				"methods": [
