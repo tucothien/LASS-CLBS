@@ -1,0 +1,21 @@
+/* audio::-webkit-media-controls-current-time-display, */
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
+}
+
+audio::-webkit-media-controls-enclosure {
+    border-radius: 0;
+}
+
+audio {
+    height: 30px;
+}
+
+.method-name {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.title {
+    color: orange;
+}
